@@ -1,0 +1,9 @@
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+lancedb_store/
+*.safetensors
+*.bin
+.DS_Store
