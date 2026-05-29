@@ -1,0 +1,65 @@
+from datasets import load_dataset
+import pandas as pd
+import json
+from pathlib import Path
+
+def prepare_finetuning_data():
+    print("Loading MedQuad dataset...")
+    dataset = load_dataset("lavita/ChatDoctor-HealthCareMagic-100k", split="train")
+    
+    print(f"Total examples available: {len(dataset)}")
+    
+    df = pd.DataFrame(dataset)
+    
+    df = df[df["input"].str.len() > 50]
+    df = df[df["output"].str.len() > 100]
+    df = df.dropna(subset=["input", "output"])
+    df = df.head(15000)
+    
+    print(f"Filtered to {len(df)} examples")
+    
+    formatted = []
+    for _, row in df.iterrows():
+        formatted.append({
+            "text": f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+You are MedAssist, a clinical triage assistant. You help patients understand their symptoms, assess severity, and determine appropriate next steps. Always be clear about urgency, cite reasoning, and recommend professional medical consultation for serious symptoms.<|eot_id|><|start_header_id|>user<|end_header_id|>
+{row['input']}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+{row['output']}<|eot_id|>"""
+        })
+    
+    output_path = Path("data/processed/training_data.json")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    with open(output_path, "w") as f:
+        json.dump(formatted, f, indent=2)
+    
+    print(f"Saved {len(formatted)} training examples to {output_path}")
+    return formatted
+
+def prepare_eval_set():
+    eval_pairs = [
+        {"question": "I have had fever for 3 days, joint pain, and red spots on my skin. What should I do?", "answer": "Your symptoms of fever, joint pain, and red spots are consistent with dengue fever warning signs. This requires urgent medical attention within 24 hours. Visit a doctor immediately for a dengue NS1 antigen test. Watch for severe abdominal pain, bleeding gums, or difficulty breathing as these are emergency signs requiring immediate hospital admission."},
+        {"question": "I have chest pain and shortness of breath. Is this serious?", "answer": "Chest pain combined with shortness of breath is a medical emergency. Call emergency services or go to the nearest emergency department immediately. Do not drive yourself. These symptoms could indicate a heart attack, pulmonary embolism, or other life-threatening condition requiring immediate evaluation."},
+        {"question": "My child has had fever for 2 days and a rash appeared today. What is this?", "answer": "Fever followed by a rash in a child requires prompt medical evaluation within the same day. This combination can indicate viral infections like roseola, measles, or scarlet fever. Some causes require immediate treatment. See a pediatrician today. If the rash is purple or does not fade when pressed with a glass, go to emergency immediately as this can indicate meningococcal disease."},
+        {"question": "I have been coughing for 3 weeks with some blood in the sputum. Should I be worried?", "answer": "Coughing for more than 3 weeks with blood in sputum requires urgent medical evaluation within 24 hours. This combination is a red flag symptom that must be investigated for tuberculosis, lung cancer, or serious lung infection. Do not delay. See a doctor today and mention both the duration and the blood in your sputum clearly."},
+        {"question": "I have a headache, stiff neck, and sensitivity to light since this morning. What should I do?", "answer": "Headache with stiff neck and light sensitivity is a medical emergency. These are classic symptoms of meningitis which can be life-threatening within hours. Go to the emergency department immediately or call emergency services. Do not wait to see if it improves."},
+        {"question": "I have mild cold and runny nose for 2 days. No fever. What should I do?", "answer": "Mild cold symptoms with runny nose and no fever are consistent with a common viral upper respiratory infection. This can be managed at home with rest, adequate hydration, and over the counter saline nasal rinse. Monitor for worsening symptoms, fever above 38.5 degrees, or symptoms lasting more than 10 days. No emergency care needed."},
+        {"question": "I have been feeling very thirsty, urinating frequently, and feeling tired for a month. What could this be?", "answer": "Excessive thirst, frequent urination, and fatigue persisting for a month are classic symptoms of diabetes mellitus. This requires medical evaluation within the next few days. See a doctor and request a fasting blood glucose and HbA1c test. While not an immediate emergency, do not ignore these symptoms as uncontrolled diabetes causes serious organ damage over time."},
+        {"question": "I have severe stomach pain on the right lower side with fever and vomiting. What is this?", "answer": "Severe pain in the right lower abdomen with fever and vomiting is a medical emergency consistent with appendicitis. Go to the emergency department immediately. Do not eat or drink anything. Do not take painkillers before the doctor examines you as they can mask important diagnostic signs. Appendicitis requires urgent surgical evaluation."},
+        {"question": "I have been taking ibuprofen daily for knee pain for 2 months. Is this safe?", "answer": "Taking ibuprofen daily for 2 months carries significant risks including gastrointestinal bleeding, stomach ulcers, and kidney damage. This requires a doctor's evaluation within the week. Safer long-term options exist. In the meantime reduce the dose to the minimum that helps. If you notice black tarry stools, vomiting blood, or significant decrease in urination, go to emergency immediately."},
+        {"question": "My elderly parent has sudden confusion and is not recognizing family members since this morning. What should I do?", "answer": "Sudden onset confusion in an elderly person is a medical emergency. This can indicate stroke, severe infection, medication toxicity, or other serious conditions. Call emergency services or take them to the emergency department immediately. Note the exact time symptoms started as this is critical for stroke treatment decisions."}
+    ]
+    
+    eval_path = Path("evaluation/test_sets/manual_eval_set.json")
+    eval_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    with open(eval_path, "w") as f:
+        json.dump(eval_pairs, f, indent=2)
+    
+    print(f"Saved {len(eval_pairs)} evaluation pairs to {eval_path}")
+    return eval_pairs
+
+if __name__ == "__main__":
+    prepare_finetuning_data()
+    prepare_eval_set()
+    print("\nData preparation complete. Ready for fine-tuning.")
