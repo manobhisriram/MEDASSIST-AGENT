@@ -1,0 +1,85 @@
+name: MedAssist Evaluation CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  schema-validation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install pydantic==2.8.2
+    
+    - name: Run schema validation tests
+      run: |
+        python -c "
+        import sys
+        sys.path.insert(0, '.')
+        from pipeline.schemas import TriageDecision, SeverityLevel
+        
+        decision = TriageDecision(
+            severity_classification=SeverityLevel.HIGH,
+            recommended_next_steps=['Go to doctor today'],
+            clinical_reasoning='Test reasoning for validation',
+            sources=['test_source'],
+            red_flag_warnings=[],
+            drug_interaction_warnings=[]
+        )
+        assert decision.severity_classification == SeverityLevel.HIGH
+        assert len(decision.recommended_next_steps) == 1
+        assert decision.disclaimer is not None
+        print('Schema validation: PASSED')
+        
+        from pipeline.schemas import ParsedSymptoms, SeverityAssessment
+        symptoms = ParsedSymptoms(
+            primary_complaint='fever',
+            duration='3 days',
+            severity_descriptor='moderate',
+            associated_symptoms=['joint pain', 'rash'],
+            medications_mentioned=[],
+            patient_context=None
+        )
+        assert symptoms.primary_complaint == 'fever'
+        print('ParsedSymptoms validation: PASSED')
+        
+        assessment = SeverityAssessment(
+            severity_level=SeverityLevel.HIGH,
+            confidence_score=0.85,
+            red_flag_indicators=['rash with fever'],
+            reasoning='Test reasoning'
+        )
+        assert assessment.confidence_score == 0.85
+        print('SeverityAssessment validation: PASSED')
+        print('ALL SCHEMA TESTS PASSED')
+        "
+    
+    - name: Check Ragas scores if available
+      run: |
+        python -c "
+        import json
+        from pathlib import Path
+        scores_path = Path('evaluation/ragas_scores.json')
+        if scores_path.exists():
+            with open(scores_path) as f:
+                scores = json.load(f)
+            faithfulness = scores.get('faithfulness', 0)
+            assert faithfulness >= 0.60, f'Faithfulness {faithfulness} below threshold 0.60'
+            print(f'Faithfulness score: {faithfulness:.3f} - PASSED')
+        else:
+            print('No ragas scores file found - skipping')
+        "
+    
+    - name: All checks passed
+      run: echo "All evaluation checks passed successfully"
