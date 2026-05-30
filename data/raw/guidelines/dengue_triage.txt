@@ -1,0 +1,40 @@
+WHO DENGUE TRIAGE GUIDELINES
+
+SEVERITY CLASSIFICATION:
+1. Dengue without warning signs (Group A): Fever, nausea, vomiting, rash, aches and pains, positive tourniquet test. Home treatment possible with adequate hydration.
+
+2. Dengue with warning signs (Group B): Abdominal pain or tenderness, persistent vomiting, clinical fluid accumulation, mucosal bleeding, lethargy, liver enlargement, increase in haematocrit with rapid decrease in platelet count. Requires hospital admission and IV fluid therapy.
+
+3. Severe dengue (Group C): Severe plasma leakage leading to shock, severe bleeding, severe organ impairment. Requires emergency treatment.
+
+WARNING SIGNS requiring immediate hospital admission:
+- Abdominal pain or tenderness
+- Persistent vomiting (3 or more times in 24 hours)
+- Clinical fluid accumulation (ascites, pleural effusion)
+- Mucosal bleeding (gum bleeding, nosebleed)
+- Lethargy or restlessness
+- Liver enlargement greater than 2cm
+- Laboratory: increase in haematocrit with rapid decrease in platelet count
+
+RED FLAGS for severe dengue:
+- Severe abdominal pain
+- Persistent vomiting
+- Rapid breathing
+- Bleeding gums
+- Fatigue, restlessness
+- Blood in vomit or stool
+- Extreme thirst, pale and cold skin
+- Feeling weak
+
+TRIAGE DECISION:
+- No warning signs: Oral rehydration, rest, paracetamol for fever. Return if warning signs develop.
+- Warning signs present: Immediate hospital referral
+- Severe dengue: Emergency hospital admission, IV fluids, close monitoring
+
+TREATMENT:
+- No specific antiviral treatment exists for dengue
+- Supportive care is the mainstay of treatment
+- Paracetamol for fever and pain (NOT aspirin or ibuprofen - risk of bleeding)
+- Oral rehydration with ORS or coconut water
+- Monitor platelet count daily
+- Blood transfusion only if severe bleeding with haemodynamic compromise

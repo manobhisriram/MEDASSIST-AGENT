@@ -1,0 +1,51 @@
+MALARIA TRIAGE AND TREATMENT GUIDELINES - INDIA
+
+CLINICAL PRESENTATION:
+Uncomplicated malaria:
+- Fever (may be cyclical - every 48 or 72 hours)
+- Chills and rigors
+- Headache
+- Myalgia (muscle pain)
+- Nausea and vomiting
+- Fatigue
+
+Severe malaria (medical emergency):
+- Cerebral malaria: altered consciousness, seizures, coma
+- Severe anaemia: haemoglobin below 7 g/dL
+- Respiratory distress
+- Hypoglycaemia
+- Renal failure
+- Shock
+
+SPECIES IN INDIA:
+- Plasmodium vivax: most common, can relapse
+- Plasmodium falciparum: more dangerous, drug resistance possible
+
+DIAGNOSIS:
+- Rapid Diagnostic Test (RDT): available at primary health centres
+- Blood smear microscopy: gold standard
+- All fever cases in endemic areas should be tested
+
+TREATMENT (Government of India Guidelines):
+Vivax malaria:
+- Chloroquine 25mg/kg over 3 days
+- Primaquine 0.25mg/kg daily for 14 days (test for G6PD deficiency first)
+
+Falciparum malaria:
+- Artemisinin-based Combination Therapy (ACT): Artesunate + Sulfadoxine-Pyrimethamine
+- Do not use chloroquine for falciparum (resistance)
+
+Severe malaria:
+- IV Artesunate is first line
+- Immediate hospital admission required
+
+PREVENTION:
+- Insecticide-treated bed nets
+- Indoor residual spraying
+- Eliminate breeding sites
+- Repellents
+
+TRIAGE DECISION:
+- Suspected uncomplicated malaria: Test immediately, treat same day
+- Any severe features: Emergency hospital admission
+- Pregnant women with malaria: Always refer to hospital

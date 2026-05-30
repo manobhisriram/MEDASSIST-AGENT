@@ -1,0 +1,37 @@
+EMERGENCY TRIAGE GUIDELINES FOR CHEST PAIN
+
+IMMEDIATE EMERGENCY - CALL AMBULANCE:
+Any chest pain with the following features requires immediate emergency response:
+- Crushing or pressure-like chest pain
+- Pain radiating to left arm, jaw, neck, or back
+- Chest pain with shortness of breath
+- Chest pain with sweating
+- Chest pain with nausea or vomiting
+- Chest pain lasting more than 15 minutes
+- Chest pain at rest
+
+POSSIBLE CAUSES BY PRESENTATION:
+
+Cardiac (Emergency):
+- Acute myocardial infarction: crushing chest pain, radiation to left arm or jaw, sweating, nausea
+- Unstable angina: chest pain at rest or with minimal exertion
+- Aortic dissection: sudden severe tearing chest pain radiating to back
+
+Pulmonary (Urgent to Emergency):
+- Pulmonary embolism: pleuritic chest pain, shortness of breath, tachycardia, risk factors (immobility, DVT)
+- Pneumothorax: sudden onset pleuritic chest pain, absent breath sounds
+
+Non-cardiac (Less urgent):
+- Gastroesophageal reflux: burning, worse after meals, relieved by antacids
+- Musculoskeletal: pain reproduced by palpation or movement
+- Anxiety/panic attack: associated with palpitations, tingling
+
+TRIAGE PRIORITY:
+- Any cardiac features: EMERGENCY - do not let patient drive themselves
+- Pleuritic chest pain with breathlessness: URGENT - same day evaluation
+- Reproducible musculoskeletal pain: can be seen within 24-48 hours
+
+INITIAL MANAGEMENT:
+- Emergency cases: Call ambulance immediately, aspirin 300mg if not allergic and cardiac cause suspected, patient should rest
+- Do not give aspirin if aortic dissection suspected
+- Oxygen if available and SpO2 below 94%

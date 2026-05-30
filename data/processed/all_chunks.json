@@ -1,0 +1,437 @@
+[
+  {
+    "text": "EMERGENCY TRIAGE GUIDELINES FOR CHEST PAIN\n\nIMMEDIATE EMERGENCY - CALL AMBULANCE:\nAny chest pain with the following features requires immediate emergency response:\n- Crushing or pressure-like chest pain\n- Pain radiating to left arm, jaw, neck, or back\n- Chest pain with shortness of breath\n- Chest pain with sweating\n- Chest pain with nausea or vomiting\n- Chest pain lasting more than 15 minutes\n- Chest pain at rest\n\nPOSSIBLE CAUSES BY PRESENTATION:\n\nCardiac (Emergency):\n- Acute myocardial infarction: crushing chest pain, radiation to left arm or jaw, sweating, nausea\n- Unstable angina: chest pain at rest or with minimal exertion\n- Aortic dissection: sudden severe tearing chest pain radiating to back\n\nPulmonary (Urgent to Emergency):\n- Pulmonary embolism: pleuritic chest pain, shortness of breath, tachycardia, risk factors (immobility, DVT)\n- Pneumothorax: sudden onset pleuritic chest pain, absent breath sounds\n\nNon-cardiac (Less urgent):\n- Gastroesophageal reflux: burning, worse after meals, relieved by antacids\n- Musculoskeletal: pain reproduced by palpation or movement\n- Anxiety/panic attack: associated with palpitations, tingling\n\nTRIAGE PRIORITY:\n- Any cardiac features: EMERGENCY - do not let patient drive themselves\n- Pleuritic chest pain with breathlessness: URGENT - same day evaluation\n- Reproducible musculoskeletal pain: can be seen within 24-48 hours\n\nINITIAL MANAGEMENT:\n- Emergency cases: Call ambulance immediately, aspirin 300mg if not allergic and cardiac cause suspected, patient should rest\n- Do not give aspirin if aortic dissection suspected\n- Oxygen if available and SpO2 below 94%",
+    "source": "chest_pain_triage.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "Dengue without warning signs (Group A): Fever, nausea, vomiting, rash, aches and pains, positive tourniquet test.",
+    "source": "dengue_triage.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "Dengue with warning signs (Group B): Abdominal pain or tenderness, persistent vomiting, clinical fluid accumulation, mucosal bleeding, lethargy, liver enlargement, increase in haematocrit with rapid decrease in platelet count.",
+    "source": "dengue_triage.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "Severe dengue (Group C): Severe plasma leakage leading to shock, severe bleeding, severe organ impairment.",
+    "source": "dengue_triage.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "WARNING SIGNS requiring immediate hospital admission:\n- Abdominal pain or tenderness\n- Persistent vomiting (3 or more times in 24 hours)\n- Clinical fluid accumulation (ascites, pleural effusion)\n- Mucosal bleeding (gum bleeding, nosebleed)\n- Lethargy or restlessness\n- Liver enlargement greater than 2cm\n- Laboratory: increase in haematocrit with rapid decrease in platelet count\n\nRED FLAGS for severe dengue:\n- Severe abdominal pain\n- Persistent vomiting\n- Rapid breathing\n- Bleeding gums\n- Fatigue, restlessness\n- Blood in vomit or stool\n- Extreme thirst, pale and cold skin\n- Feeling weak\n\nTRIAGE DECISION:\n- No warning signs: Oral rehydration, rest, paracetamol for fever.",
+    "source": "dengue_triage.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "- Warning signs present: Immediate hospital referral\n- Severe dengue: Emergency hospital admission, IV fluids, close monitoring\n\nTREATMENT:\n- No specific antiviral treatment exists for dengue\n- Supportive care is the mainstay of treatment\n- Paracetamol for fever and pain (NOT aspirin or ibuprofen - risk of bleeding)\n- Oral rehydration with ORS or coconut water\n- Monitor platelet count daily\n- Blood transfusion only if severe bleeding with haemodynamic compromise",
+    "source": "dengue_triage.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "CLINICAL GUIDELINES FOR FEVER TRIAGE\n\nDEFINITION:\nFever is defined as body temperature above 38.0\u00b0C (100.4\u00b0F).",
+    "source": "fever_triage.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "SEVERITY CLASSIFICATION BY AGE:\n\nInfants under 3 months:\n- Any fever above 38.0\u00b0C is a medical emergency\n- Immediate emergency department evaluation required\n- Risk of serious bacterial infection is high\n\nChildren 3 months to 3 years:\n- Fever above 39.0\u00b0C without source: evaluate same day\n- Fever with rash: evaluate same day\n- Fever with stiff neck: emergency - possible meningitis\n- Fever lasting more than 5 days: medical evaluation required\n\nAdults:\n- Fever above 38.5\u00b0C lasting more than 3 days: medical evaluation\n- Fever above 40.0\u00b0C: urgent medical evaluation\n- Fever with stiff neck, severe headache, light sensitivity: emergency\n- Fever with difficulty breathing: emergency\n- Fever with confusion: emergency\n\nRED FLAG SYMPTOMS WITH FEVER:\n- Stiff neck\n- Severe headache\n- Photophobia (light sensitivity)\n- Petechial or purpuric rash (does not blanch with pressure)\n- Difficulty breathing\n- Severe abdominal pain\n- Confusion or altered consciousness\n- Inability to stand or walk\n- Persistent vomiting\n\nCOMMON CAUSES BY DURATION:\n- Less than 7 days: viral infection (most common), bacterial infection\n- 7-14 days: typhoid fever, malaria, dengue, bacterial infection\n- More than 14 days: tuberculosis, infective endocarditis, malignancy, autoimmune\n\nMANAGEMENT:\n- Paracetamol 500-1000mg every 6 hours for adults (NOT aspirin for children)\n- Adequate hydration: 2-3 litres water per day for adults\n- Rest\n- Remove excess clothing\n- Seek medical attention if fever persists more than 3 days or any red flag present",
+    "source": "fever_triage.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "MALARIA TRIAGE AND TREATMENT GUIDELINES - INDIA\n\nCLINICAL PRESENTATION:\nUncomplicated malaria:\n- Fever (may be cyclical - every 48 or 72 hours)\n- Chills and rigors\n- Headache\n- Myalgia (muscle pain)\n- Nausea and vomiting\n- Fatigue\n\nSevere malaria (medical emergency):\n- Cerebral malaria: altered consciousness, seizures, coma\n- Severe anaemia: haemoglobin below 7 g/dL\n- Respiratory distress\n- Hypoglycaemia\n- Renal failure\n- Shock\n\nSPECIES IN INDIA:\n- Plasmodium vivax: most common, can relapse\n- Plasmodium falciparum: more dangerous, drug resistance possible\n\nDIAGNOSIS:\n- Rapid Diagnostic Test (RDT): available at primary health centres\n- Blood smear microscopy: gold standard\n- All fever cases in endemic areas should be tested\n\nTREATMENT (Government of India Guidelines):\nVivax malaria:\n- Chloroquine 25mg/kg over 3 days\n- Primaquine 0.25mg/kg daily for 14 days (test for G6PD deficiency first)\n\nFalciparum malaria:\n- Artemisinin-based Combination Therapy (ACT): Artesunate + Sulfadoxine-Pyrimethamine\n- Do not use chloroquine for falciparum (resistance)\n\nSevere malaria:\n- IV Artesunate is first line\n- Immediate hospital admission required\n\nPREVENTION:\n- Insecticide-treated bed nets\n- Indoor residual spraying\n- Eliminate breeding sites\n- Repellents\n\nTRIAGE DECISION:\n- Suspected uncomplicated malaria: Test immediately, treat same day\n- Any severe features: Emergency hospital admission\n- Pregnant women with malaria: Always refer to hospital",
+    "source": "malaria_guidelines.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "RESPIRATORY ILLNESS TRIAGE GUIDELINES\n\nSEVERITY CLASSIFICATION:\n\nEMERGENCY - Call ambulance immediately:\n- Severe difficulty breathing (cannot complete sentences)\n- Cyanosis (blue lips or fingertips)\n- Altered consciousness with breathing difficulty\n- Silent chest (no breath sounds despite respiratory effort)\n- Respiratory rate above 30 per minute in adults\n\nURGENT - Same day hospital evaluation:\n- Moderate difficulty breathing\n- Respiratory rate 20-30 per minute\n- Oxygen saturation below 94% if measurable\n- High fever with productive cough\n- Coughing blood (haemoptysis)\n- Chest pain with breathing (pleuritic)\n\nSTANDARD - See doctor within 48 hours:\n- Persistent cough more than 3 weeks\n- Mild wheeze with known asthma, controlled with inhaler\n- Cough with fever in adults (possible pneumonia)\n\nHOME MANAGEMENT - Monitor symptoms:\n- Common cold: clear or white nasal discharge, mild cough, no fever\n- Mild viral upper respiratory infection: symptom relief, adequate hydration\n\nRED FLAGS for serious respiratory illness:\n- Coughing blood\n- Night sweats with cough (possible tuberculosis)\n- Weight loss with cough\n- Cough lasting more than 3 weeks\n\nASTHMA ACUTE ATTACK MANAGEMENT:\n- Mild: 2-4 puffs salbutamol inhaler, repeat every 20 minutes up to 3 times\n- Moderate: 4-8 puffs salbutamol, seek medical attention\n- Severe: Ambulance immediately, salbutamol continuously\n\nTUBERCULOSIS SCREENING:\nRefer for TB testing if:\n- Cough more than 2 weeks\n- Blood in sputum\n- Night sweats\n- Unexplained weight loss\n- Close contact with known TB patient",
+    "source": "respiratory_guidelines.txt",
+    "type": "guideline"
+  },
+  {
+    "text": "Drug: aspirin\nIndications: Uses for the temporary relief of minor aches and pains or as recommended by your doctor. Because of its delayed action, this product will not provide fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for safety coated 81 mg aspirin",
+    "source": "OpenFDA-aspirin",
+    "type": "drug",
+    "drug_name": "aspirin",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: aspirin\nWarnings: Warnings Reye's syndrome : Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness. Allergy alert : Aspirin may cause a severe allergic reaction, which may include: hives facial swelling shock asthma (wheezing) Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you: are age 60 or older have had stomach ulcers or bleeding problems take a blood thinning (anticoagulant) or steroid drug take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others] have 3 or more alcoholic drinks every day while using this product take more or for a longer time than directed Do not use if you are allergic to aspirin or any other pain reliever/f",
+    "source": "OpenFDA-aspirin",
+    "type": "drug",
+    "drug_name": "aspirin",
+    "field": "warnings"
+  },
+  {
+    "text": "Drug: aspirin\nDosage: Directions drink a full glass of water with each dose adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor children under 12 years: consult a doctor",
+    "source": "OpenFDA-aspirin",
+    "type": "drug",
+    "drug_name": "aspirin",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: ibuprofen\nIndications: Uses temporarily relieves minor aches and pains due to: headache toothache backache menstrual cramps the common cold muscular aches minor pain of arthritis temporarily reduces fever",
+    "source": "OpenFDA-ibuprofen",
+    "type": "drug",
+    "drug_name": "ibuprofen",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: ibuprofen\nWarnings: Warnings Allergy alert: Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include: rash facial swelling asthma (wheezing) hives skin reddening shock blisters If an allergic reaction occurs, stop use and seek medical help right away. Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you: take more or for a longer time than directed take a blood thinning (anticoagulant) or steroid drug have had stomach ulcers or bleeding problems have 3 or more alcoholic drinks every day while using this product are age 60 or older take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others] Heart attack and stroke warning: NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed. Do not use if you have ever h",
+    "source": "OpenFDA-ibuprofen",
+    "type": "drug",
+    "drug_name": "ibuprofen",
+    "field": "warnings"
+  },
+  {
+    "text": "Drug: ibuprofen\nDosage: Directions do not take more than directed the smallest effective dose should be used adults and children 12 years and over: take 1 tablet every 4 to 6 hours while symptoms persist if pain or fever does not respond to 1 tablet, 2 tablets may be used do not exceed 6 tablets in 24 hours, unless directed by a doctor children under 12 years: ask a doctor",
+    "source": "OpenFDA-ibuprofen",
+    "type": "drug",
+    "drug_name": "ibuprofen",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: amoxicillin\nIndications: 1 INDICATIONS AND USAGE Amoxicillin and Clavulanate Potassium is indicated for the treatment of infections in adults and pediatric patients, due to susceptible isolates of the designated bacteria in the conditions listed below: Lower Respiratory Tract Infections - caused by beta\u2011lactamase\u2013producing isolates of Haemophilus influenzae and Moraxella catarrhalis . Acute Bacterial Otitis Media - caused by beta\u2011lactamase\u2013producing isolates of H. influenzae and M. catarrhalis . Sinusitis - caused by beta\u2011lactamase\u2013producing isolates of H. influenzae and M. catarrhalis . Skin and Skin Structure Infections - caused by beta\u2011lactamase\u2013producing isolates of Staphylococcus aureus , Escherichia coli , and Klebsiella species. Urinary Tract Infections - caused by beta\u2011lactamase\u2013producing isolates of E. coli , Klebsiella species, and Enterobacter species. Amoxicillin and Clavulanate Potassium is a combination of amoxicillin, a penicillin-class antibacterial and clavulanate potassium, a beta\u2011lactamase i",
+    "source": "OpenFDA-amoxicillin",
+    "type": "drug",
+    "drug_name": "amoxicillin",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: amoxicillin\nContraindications: 4 CONTRAINDICATIONS History of a serious hypersensitivity reaction (e.g., anaphylaxis or Stevens-Johnson syndrome) to Amoxicillin and Clavulanate Potassium or to other beta\u2011lactams (e.g., penicillins or cephalosporins). ( 4.1 ) History of cholestatic jaundice/hepatic dysfunction associated with Amoxicillin and Clavulanate Potassium. ( 4.2 ) 4.1 Serious Hypersensitivity Reactions Amoxicillin and Clavulanate Potassium is contraindicated in patients with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to amoxicillin, clavulanate or to other beta\u2011lactam antibacterial drugs (e.g., penicillins and cephalosporins). 4.2 Cholestatic Jaundice/Hepatic Dysfunction Amoxicillin and Clavulanate Potassium is contraindicated in patients with a previous history of cholestatic jaundice/hepatic dysfunction associated with Amoxicillin and Clavulanate Potassium.",
+    "source": "OpenFDA-amoxicillin",
+    "type": "drug",
+    "drug_name": "amoxicillin",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: amoxicillin\nAdverse Reactions: 6 ADVERSE REACTIONS The following are discussed in more detail in other sections of the labeling: Anaphylactic reactions [see Warnings and Precautions (5.1) ] Severe Cutaneous Adverse Reactions [see Warnings and Precautions ( 5.2 )] Hepatic Dysfunction [see Warnings and Precautions (5.3) ] Clostridioides difficile Associated Diarrhea (CDAD) [see Warnings and Precautions (5.4) ] The most frequently reported adverse effects were diarrhea/loose stools (9%), nausea (3%), skin rashes and urticaria (3%), vomiting (1%) and vaginitis (1%). ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact USAntibiotics, LLC at 1-844-454-5532 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch . 6.1 Clinical Trial Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. The most frequently repor",
+    "source": "OpenFDA-amoxicillin",
+    "type": "drug",
+    "drug_name": "amoxicillin",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: amoxicillin\nDosage: 2 DOSAGE AND ADMINISTRATION Adults and Pediatric Patients greater than 40 kg: 500 or 875 mg every 12 hours or 250 or 500 mg every 8 hours, based on the amoxicillin component. ( 2.2 , 2.3 ) Pediatric patients aged 12 weeks (3 months) and older: 25 to 45 mg/kg/day every 12 hours or 20 to 40 mg/kg/day every 8 hours, up to the adult dose. ( 2.3 ) Neonates and infants less than 12 weeks of age: 30 mg/kg/day divided every 12 hours, based on the amoxicillin component. Use of the 125 mg/5 mL oral suspension is recommended. ( 2.3 ) 2.1 Important Administration Instructions Amoxicillin and Clavulanate Potassium may be taken without regard to meals; however, absorption of clavulanate potassium is enhanced when Amoxicillin and Clavulanate Potassium is administered at the start of a meal. To minimize the potential for gastrointestinal intolerance, Amoxicillin and Clavulanate Potassium should be taken at the start of a meal. 2.2 Adult Patients See dosing regimens of Amoxicillin and Clavulanate Potas",
+    "source": "OpenFDA-amoxicillin",
+    "type": "drug",
+    "drug_name": "amoxicillin",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: metformin\nIndications: 1 INDICATIONS AND USAGE ZITUVIMET is a combination of sitagliptin, a dipeptidyl peptidase-4 (DPP-4) inhibitor, and metformin hydrochloride (HCl), a biguanide, indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) Limitations of Use: ZITUVIMET is not recommended in patients with type 1 diabetes mellitus. ( 1 ) ZITUVIMET has not been studied in patients with a history of pancreatitis. ( 1 ) ZITUVIMET is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Limitations of Use ZITUVIMET is not recommended in patients with type 1 diabetes mellitus. ZITUVIMET has not been studied in patients with a history of pancreatitis. It is unknown whether patients with a history of pancreatitis are at increased risk for the development of pancreatitis while using ZITUVIMET. [see Warnings and Precautions ( 5.2 )].",
+    "source": "OpenFDA-metformin",
+    "type": "drug",
+    "drug_name": "metformin",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: metformin\nContraindications: 4 CONTRAINDICATIONS Severe renal impairment: (eGFR below 30 mL/min/1.73 m 2 ) ( 4) Metabolic acidosis, including diabetic ketoacidosis. ( 4 ) History of a serious hypersensitivity reaction to ZITUVIMET, sitagliptin, or metformin, such as anaphylaxis or angioedema. (4) ZITUVIMET is contraindicated in patients with: Severe renal impairment (eGFR below 30 mL/min/1.73 m 2 ) [see Warnings and Precautions ( 5.1 )]. Acute or chronic metabolic acidosis, including diabetic ketoacidosis. History of a serious hypersensitivity reaction to sitagliptin, metformin, or any of the excipients in ZITUVIMET. Serious hypersensitivity reactions including anaphylaxis or angioedema have been reported. [see Warnings and Precautions ( 5.7 ) and Adverse Reactions ( 6.2 )].",
+    "source": "OpenFDA-metformin",
+    "type": "drug",
+    "drug_name": "metformin",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: metformin\nAdverse Reactions: 6 ADVERSE REACTIONS The following adverse reactions are also discussed elsewhere in the prescribing information: Lactic Acidosis [see Warnings and Precautions ( 5.1 )] Pancreatitis [see Warnings and Precautions ( 5.2 )] Heart Failure [see Warnings and Precautions ( 5.3 )] Acute Renal Failure [see Warnings and Precautions ( 5.4 )] Vitamin B12 Deficiency [see Warnings and Precautions ( 5.5 )] Hypoglycemia with Concomitant Use with Insulin or Insulin Secretagogues [see Warnings and Precautions ( 5.6 )] Hypersensitivity Reactions [see Warnings and Precautions ( 5.7 )] Severe and Disabling Arthralgia [see Warnings and Precautions ( 5.8 )] Bullous Pemphigoid [see Warnings and Precautions ( 5.9 )] Most common adverse reactions (incidence \u22655% of patients simultaneously started on sitagliptin and metformin and more commonly than in patients treated with placebo were diarrhea, upper respiratory tract infection, and headache. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Zydus Pharmaceut",
+    "source": "OpenFDA-metformin",
+    "type": "drug",
+    "drug_name": "metformin",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: metformin\nDosage: 2 DOSAGE AND ADMINISTRATION Take ZITUVIMET orally twice daily with meals. ( 2.1 ) Individualize the dosage of ZITUVIMET on the basis of the patient's current regimen, effectiveness, and tolerability. ( 2.1 ) The maximum recommended daily dose is 100 mg of sitagliptin and 2,000 mg of metformin HCl. ( 2.1 ) The recommended starting dose in patients not currently treated with metformin is 50 mg sitagliptin and 500 mg metformin HCl twice daily, with gradual dose escalation recommended to reduce gastrointestinal side effects associated with metformin. ( 2.1 ) The starting dose in patients already treated with metformin should provide sitagliptin dosed as 50 mg twice daily (100 mg total daily dose) and the dose of metformin already being taken. For patients taking metformin HCl 850 mg twice daily, the recommended starting dose of ZITUVIMET is 50 mg sitagliptin and 1,000 mg metformin HCl twice daily. ( 2.1 ) Prior to initiation, assess renal function with estimated glomerular filtration rate ",
+    "source": "OpenFDA-metformin",
+    "type": "drug",
+    "drug_name": "metformin",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: amlodipine\nIndications: 1 INDICATIONS AND USAGE Amlodipine besylate tablets are calcium channel blocker and may be used alone or in combination with other antihypertensive and antianginal agents for the treatment of: \u2022Hypertension ( 1.1 ) \u043e Amlodipine besylate tablets are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions. \u2022Coronary Artery Disease ( 1.2 ) \u043e Chronic Stable Angina \u043e Vasospastic Angina (Prinzmetal's or Variant Angina) \u043e Angiographically Documented Coronary Artery Disease in patients without heart failure or an ejection fraction < 40% 1.1 Hypertension Amlodipine besylate tablets are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions. These benefits have been seen in controlled trials of antihypertensiv",
+    "source": "OpenFDA-amlodipine",
+    "type": "drug",
+    "drug_name": "amlodipine",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: amlodipine\nContraindications: 4 CONTRAINDICATIONS Known sensitivity to amlodipine ( 4 ) Amlodipine besylate tablets are contraindicated in patients with known sensitivity to amlodipine.",
+    "source": "OpenFDA-amlodipine",
+    "type": "drug",
+    "drug_name": "amlodipine",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: amlodipine\nAdverse Reactions: 6 ADVERSE REACTIONS Most common adverse reaction to amlodipine is edema which occurred in a dose related manner. Other adverse experiences not dose related but reported with an incidence >1.0% are fatigue, nausea, abdominal pain, and somnolence. ( 6 ) To report SUSPECTED ADVERSE REACTIONS, contact Lupin Pharmaceuticals, Inc. at 1-800-399-2561 or www.lupinpharmaceuticals.com or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. Amlodipine has been evaluated for safety in more than 11,000 patients in U.S. and foreign clinical trials. In general, treatment with amlodipine was well-tolerated at doses up to 10 mg daily. Most adverse reactions reported during therapy with amlodipine were of mild or moderat",
+    "source": "OpenFDA-amlodipine",
+    "type": "drug",
+    "drug_name": "amlodipine",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: amlodipine\nDosage: 2 DOSAGE AND ADMINISTRATION \u2022Adult recommended starting dose: 5 mg once daily with maximum dose 10 mg once daily. ( 2.1 ) \u043e Small, fragile, or elderly patients, or patients with hepatic insufficiency may be started on 2.5 mg once daily. ( 2.1 ) \u2022Pediatric starting dose: 2.5 mg to 5 mg once daily. ( 2.2 ) Important Limitation : Doses in excess of 5 mg daily have not been studied in pediatric patients. ( 2.2 ) 2.1 Adults The usual initial antihypertensive oral dose of amlodipine besylate tablet is 5 mg once daily and the maximum dose is 10 mg once daily. Small, fragile, or elderly patients, or patients with hepatic insufficiency may be started on 2.5 mg once daily and this dose may be used when adding amlodipine besylate tablet to other antihypertensive therapy. Adjust dosage according to blood pressure goals. In general, wait 7 to 14 days between titration steps. Titrate more rapidly, however, if clinically warranted, provided the patient is assessed frequently. Angina The recommended d",
+    "source": "OpenFDA-amlodipine",
+    "type": "drug",
+    "drug_name": "amlodipine",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: atorvastatin\nIndications: 1 INDICATIONS AND USAGE Atorvastatin calcium tablets are indicated: To reduce the risk of: Myocardial infarction (MI), stroke, revascularization procedures, and angina in adults with multiple risk factors for coronary heart disease (CHD) but without clinically evident CHD MI and stroke in adults with type 2 diabetes mellitus with multiple risk factors for CHD but without clinically evident CHD Non-fatal MI, fatal and non-fatal stroke, revascularization procedures, hospitalization for congestive heart failure, and angina in adults with clinically evident CHD As an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: Adults with primary hyperlipidemia. Adults and pediatric patients aged 10 years and older with heterozygous familial hypercholesterolemia (HeFH). As an adjunct to other LDL-C-lowering therapies, or alone if such treatments are unavailable, to reduce LDL-C in adults and pediatric patients aged 10 years and older with homozygous familial hypercholesterolem",
+    "source": "OpenFDA-atorvastatin",
+    "type": "drug",
+    "drug_name": "atorvastatin",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: atorvastatin\nContraindications: 4 CONTRAINDICATIONS Acute liver failure or decompensated cirrhosis [see Warnings and Precautions (5.3) ] Hypersensitivity to atorvastatin or any excipients in atorvastatin calcium. Hypersensitivity reactions, including anaphylaxis, angioneurotic edema, erythema multiforme, Stevens-Johnson syndrome, and toxic epidermal necrolysis, have been reported [see Adverse Reactions (6.2) ]. Acute liver failure or decompensated cirrhosis ( 4 ). Hypersensitivity to atorvastatin or any excipient in atorvastatin calcium ( 4 ).",
+    "source": "OpenFDA-atorvastatin",
+    "type": "drug",
+    "drug_name": "atorvastatin",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: atorvastatin\nAdverse Reactions: 6 ADVERSE REACTIONS The following important adverse reactions are described below and elsewhere in the labeling: Myopathy and Rhabdomyolysis [see Warnings and Precautions (5.1) ] Immune-Mediated Necrotizing Myopathy [see Warnings and Precautions (5.2) ] Hepatic Dysfunction [see Warnings and Precautions (5.3) ] Increases in HbA1c and Fasting Serum Glucose Levels [see Warnings and Precautions (5.4) ] Most common adverse reactions (incidence \u22655%) are nasopharyngitis, arthralgia, diarrhea, pain in extremity, and urinary tract infection ( 6.1 ). To report SUSPECTED ADVERSE REACTIONS, contact Novadoz Pharmaceuticals LLC at 1-855-668-2369 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, the adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. In the ator",
+    "source": "OpenFDA-atorvastatin",
+    "type": "drug",
+    "drug_name": "atorvastatin",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: atorvastatin\nDosage: 2 DOSAGE AND ADMINISTRATION Take orally once daily with or without food ( 2.1 ). Assess LDL-C when clinically appropriate, as early as 4 weeks after initiating atorvastatin calcium tablets, and adjust dosage if necessary ( 2.1 ). Adults ( 2.2 ): Recommended starting dosage is 10 or 20 mg once daily; dosage range is 10 mg to 80 mg once daily. Patients requiring LDL-C reduction >45% may start at 40 mg once daily. Pediatric Patients Aged 10 Years of Age and Older with HeFH: Recommended starting dosage is 10 mg once daily; dosage range is 10 to 20 mg once daily ( 2.3 ). Pediatric Patients Aged 10 Years of Age and Older with HoFH: Recommended starting dosage is 10 to 20 mg once daily; dosage range is 10 to 80 mg once daily ( 2.4 ). See full prescribing information for atorvastatin calcium tablets dosage modifications due to drug interactions ( 2.5 ). 2.1 Important Dosage Information Take atorvastatin calcium tablets orally once daily at any time of the day, with or without food. Assess LDL-",
+    "source": "OpenFDA-atorvastatin",
+    "type": "drug",
+    "drug_name": "atorvastatin",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: omeprazole\nIndications: Use(s) treats frequent heartburn (occurs 2 or more days a week) not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect",
+    "source": "OpenFDA-omeprazole",
+    "type": "drug",
+    "drug_name": "omeprazole",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: omeprazole\nWarnings: Warnings Allergy alert: do not use if you are allergic to omeprazole omeprazole may cause severe skin reactions. Symptoms may include: skin reddening blisters rash If an allergic reaction occurs, stop use and seek medical help right away. Do not use if you have: trouble or pain swallowing food, vomiting with blood, or bloody or black stools heartburn with lightheadedness, sweating or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadednes frequent chest pain These may be signs of a serious condition. See your doctor. Ask a doctor before use if you have : had heartburn over 3 months. This may be a sign of a more serious condition. frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain Ask a doctor or pharmacist before use if you are taking a prescription drug. Acid reducers may interact with certain prescription drugs. Stop use and ask doctor if: your heartburn ",
+    "source": "OpenFDA-omeprazole",
+    "type": "drug",
+    "drug_name": "omeprazole",
+    "field": "warnings"
+  },
+  {
+    "text": "Drug: omeprazole\nDosage: Directions for adults 18 years of age and older this product is to be used once a day (every 24 hours), every day for 14 days it may take 1 to 4 days for full effect; some people get complete relief of symptoms within 24 hours 14-Day Course of Treatment swallow 1 tablet with a glass of water before eating in the morning take every day for 14 days do not take more than 1 tablet a day do not use for more than 14 days unless directed by your doctor swallow whole. Do not chew or crush tablets Repeated 14-Day Courses (if needed) you may repeat a 14-day course every 4 months do not take for more than 14 days or more often than every 4 months unless directed by a doctor children under 18 years of age: ask a doctor. Heartburn in children may sometimes be caused by a serious condition.",
+    "source": "OpenFDA-omeprazole",
+    "type": "drug",
+    "drug_name": "omeprazole",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: ciprofloxacin\nIndications: INDICATIONS AND USAGE Ciprofloxacin Ophthalmic Solution is indicated for the treatment of infections caused by susceptible strains of the designated microorganisms in the conditions listed below: Corneal Ulcers: Pseudomonas aeruginosa Serratia marcescens * Staphylococcus aureus Staphylococcus epidermidis Streptococcus pneumoniae Streptococcus (Viridans Group) * Conjunctivitis: Haemophilus influenzae Staphylococcus aureus Staphylococcus epidermidis Streptococcus pneumoniae *Efficacy for this organism was studied in fewer than 10 infections.",
+    "source": "OpenFDA-ciprofloxacin",
+    "type": "drug",
+    "drug_name": "ciprofloxacin",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: ciprofloxacin\nContraindications: CONTRAINDICATIONS A history of hypersensitivity to ciprofloxacin or any other component of the medication is a contraindication to its use. A history of hypersensitivity to other quinolones may also contraindicate the use of ciprofloxacin.",
+    "source": "OpenFDA-ciprofloxacin",
+    "type": "drug",
+    "drug_name": "ciprofloxacin",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: ciprofloxacin\nAdverse Reactions: ADVERSE REACTIONS The most frequently reported drug related adverse reaction was local burning or discomfort. In corneal ulcer studies with frequent administration of the drug, white crystalline precipitates were seen in approximately 17% of patients ( see Precautions ). Other reactions occurring in less than 10% of patients included lid margin crusting, crystals/scales, foreign body sensation, itching, conjunctival hyperemia and a bad taste following instillation. Additional events occurring in less than 1% of patients included corneal staining, keratopathy/keratitis, allergic reactions, lid edema, tearing, photophobia, corneal infiltrates, nausea and decreased vision. To report SUSPECTED ADVERSE REACTIONS, contact LEADING PHARMA AT 1-844-740-7500 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch",
+    "source": "OpenFDA-ciprofloxacin",
+    "type": "drug",
+    "drug_name": "ciprofloxacin",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: ciprofloxacin\nDosage: DOSAGE AND ADMINISTRATION Corneal Ulcers: The recommended dosage regimen for the treatment of corneal ulcers is two drops into the affected eye every 15 minutes for the first six hours and then two drops into the affected eye every 30 minutes for the remainder of the first day. On the second day, instill two drops in the affected eye hourly. On the third through the fourteenth day, place two drops in the affected eye every four hours. Treatment may be continued after 14 days if corneal re-epithelialisation has not occurred. Bacterial Conjunctivitis: The recommended dosage regimen for the treatment of bacterial conjunctivitis is one or two drops instilled into the conjunctival sac(s) every two hours while awake for two days and one or two drops every four hours while awake for the next five days.",
+    "source": "OpenFDA-ciprofloxacin",
+    "type": "drug",
+    "drug_name": "ciprofloxacin",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: azithromycin\nIndications: 1 INDICATIONS AND USAGE Azithromycin is a macrolide antibacterial drug indicated for the treatment of patients with mild to moderate infections caused by susceptible strains of the designated microorganisms in the specific conditions listed below. Recommended dosages and durations of therapy in adult and pediatric patient populations vary in these indications. [see Dosage and Administration (2) ] Azithromycin is a macrolide antibacterial drug indicated for mild to moderate infections caused by designated, susceptible bacteria: \u2022 Acute bacterial exacerbations of chronic bronchitis in adults () \u2022 Acute bacterial sinusitis in adults () \u2022 Uncomplicated skin and skin structure infections in adults () \u2022 Urethritis and cervicitis in adults () \u2022 Genital ulcer disease in men () \u2022 Acute otitis media in pediatric patients (6 months of age and older) ( 1.2 ) \u2022 Community-acquired pneumonia in adults and pediatric patients (6 months of age and older) (, 1.2 ) \u2022 Pharyngitis/tonsillitis in adults and ",
+    "source": "OpenFDA-azithromycin",
+    "type": "drug",
+    "drug_name": "azithromycin",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: azithromycin\nContraindications: 4 CONTRAINDICATIONS \u2022 Patients with known hypersensitivity to azithromycin, erythromycin, any macrolide or ketolide drug. () \u2022 Patients with a history of cholestatic jaundice/hepatic dysfunction associated with prior use of azithromycin. () 4.1 Hypersensitivity Azithromycin tablets are contraindicated in patients with known hypersensitivity to azithromycin, erythromycin, any macrolide or ketolide drug. 4.2 Hepatic Dysfunction Azithromycin tablets are contraindicated in patients with a history of cholestatic jaundice/hepatic dysfunction associated with prior use of azithromycin.",
+    "source": "OpenFDA-azithromycin",
+    "type": "drug",
+    "drug_name": "azithromycin",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: azithromycin\nAdverse Reactions: 6 ADVERSE REACTIONS The following clinically significant adverse reactions are described elsewhere in labeling: \u2022 Hypersensitivity [see ] \u2022 Hepatotoxicity [see ] \u2022 Infantile Hypertrophic Pyloric Stenosis (IHPS) [see ] \u2022 QT Prolongation [see Warnings and Precautions (5.4) ] \u2022 Cardiovascular Death [see ] \u2022 Clostridioides difficile- Associated Diarrhea (CDAD) [see ] \u2022 Exacerbation of Myasthenia Gravis [see ] Most common adverse reactions are diarrhea (5 to 14%), nausea (3 to 18%), abdominal pain (3 to 7%), or vomiting (2 to 7%). ( ) To report SUSPECTED ADVERSE REACTIONS, contact Aurobindo Pharma USA, Inc. at 1-866-850-2876 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. In clinical trials, most of",
+    "source": "OpenFDA-azithromycin",
+    "type": "drug",
+    "drug_name": "azithromycin",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: azithromycin\nDosage: 2 DOSAGE AND ADMINISTRATION \u2022 Adult Patients ( ) Infection Recommended Dose/Duration of Therapy Community-acquired pneumonia (mild severity) Pharyngitis/tonsillitis (second-line therapy) Skin/skin structure (uncomplicated) 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5. Acute bacterial exacerbations of chronic bronchitis (mild to moderate) 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5 or 500 mg once daily for 3 days. Acute bacterial sinusitis 500 mg once daily for 3 days. Genital ulcer disease (chancroid) Non-gonococcal urethritis and cervicitis One single 1 gram dose. Gonococcal urethritis and cervicitis One single 2 gram dose. \u2022 Pediatric Patients ( ) Infection Recommended Dose/Duration of Therapy Acute otitis media (6 months of age and older) 30 mg/kg as a single dose or 10 mg/kg once daily for 3 days or 10 mg/kg as a single dose on Day 1 followed by 5 mg/kg/day on Days 2 through 5. Acute bacterial sinusitis ",
+    "source": "OpenFDA-azithromycin",
+    "type": "drug",
+    "drug_name": "azithromycin",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: metronidazole\nIndications: INDICATIONS AND USAGE Symptomatic Trichomoniasis. Metronidazole tablets are indicated for the treatment of T. vaginalis infection in females and males when the presence of the trichomonad has been confirmed by appropriate laboratory procedures (wet smears and/or cultures). Asymptomatic Trichomoniasis. Metronidazole tablets are indicated in the treatment of asymptomatic T. vaginalis infection in females when the organism is associated with endocervicitis, cervicitis, or cervical erosion. Since there is evidence that presence of the trichomonad can interfere with accurate assessment of abnormal cytological smears, additional smears should be performed after eradication of the parasite. Treatment of Asymptomatic Sexual Partners. T. vaginalis infection is a venereal disease. Therefore, asymptomatic sexual partners of treated patients should be treated simultaneously if the organism has been found to be present, in order to prevent reinfection of the partner. The decision as to whether to t",
+    "source": "OpenFDA-metronidazole",
+    "type": "drug",
+    "drug_name": "metronidazole",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: metronidazole\nContraindications: CONTRAINDICATIONS Hypersensitivity Metronidazole tablet are contraindicated in patients with a prior history of hypersensitivity to metronidazole or other nitroimidazole derivatives. In patients with trichomoniasis, metronidazole tablet are contraindicated during the first trimester of pregnancy (see PRECAUTIONS ). Psychotic Reaction with Disulfiram Use of oral metronidazole is associated with psychotic reactions in alcoholic patients who were using disulfiram concurrently. Do not administer metronidazole to patients who have taken disulfiram within the last two weeks (see PRECAUTIONS, Drug Interactions ). Interaction with Alcohol Use of oral metronidazole is associated with a disulfiram-like reaction to alcohol, including abdominal cramps, nausea, vomiting, headaches, and flushing. Discontinue consumption of alcohol or products containing propylene glycol during and for at least three days after therapy with metronidazole (see PRECAUTIONS, Drug Interactions ). Cockayne Syndrome Metron",
+    "source": "OpenFDA-metronidazole",
+    "type": "drug",
+    "drug_name": "metronidazole",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: metronidazole\nWarnings: WARNINGS Hypersensitivity Reactions Hypersensitivity reactions including severe cutaneous adverse reactions (SCARs) can be serious and potentially life threatening (see ADVERSE REACTIONS ). Severe Cutaneous Adverse Reactions Severe cutaneous adverse reactions (SCARs) including toxic epidermal necrolysis (TEN), Stevens-Johnson syndrome (SJS), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP) have been reported with the use of metronidazole. Symptoms can be serious and potentially life threatening (If symptoms or signs of SCARs develop, discontinue metronidazole tablets immediately and institute appropriate therapy. Central and Peripheral Nervous System Effects Encephalopathy and peripheral neuropathy: Cases of encephalopathy and peripheral neuropathy (including optic neuropathy) have been reported with metronidazole. Encephalopathy has been reported in association with cerebellar toxicity characterized by ataxia, dizzine",
+    "source": "OpenFDA-metronidazole",
+    "type": "drug",
+    "drug_name": "metronidazole",
+    "field": "warnings"
+  },
+  {
+    "text": "Drug: metronidazole\nAdverse Reactions: ADVERSE REACTIONS The following reactions have been reported during treatment with metronidazole: Central Nervous System: The most serious adverse reactions reported in patients treated with metronidazole have been convulsive seizures, encephalopathy, aseptic meningitis, optic and peripheral neuropathy, the latter characterized mainly by numbness or paresthesia of an extremity. Since persistent peripheral neuropathy has been reported in some patients receiving prolonged administration of metronidazole, patients should be specifically warned about these reactions and should be told to stop the drug and report immediately to their physicians if any neurologic symptoms occur. In addition, patients have reported headache, syncope, dizziness, vertigo, incoordination, ataxia, tinnitus, hearing impairment, hearing loss, confusion, dysarthria, irritability, depression, weakness, and insomnia (see WARNINGS ). Gastrointestinal: The most common adverse reactions reported have been referable to th",
+    "source": "OpenFDA-metronidazole",
+    "type": "drug",
+    "drug_name": "metronidazole",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: metronidazole\nDosage: DOSAGE AND ADMINISTRATION Trichomoniasis: In the Female: One-day treatment \u2212 two grams of metronidazole tablets, given either as a single dose or in two divided doses of one gram each, given in the same day. Seven-day course of treatment \u2212 250 mg three times daily for seven consecutive days. There is some indication from controlled comparative studies that cure rates as determined by vaginal smears and signs and symptoms, may be higher after a seven-day course of treatment than after a one-day treatment regimen. The dosage regimen should be individualized. Single-dose treatment can assure compliance, especially if administered under supervision, in those patients who cannot be relied on to continue the seven-day regimen. A seven-day course of treatment may minimize reinfection by protecting the patient long enough for the sexual contacts to obtain appropriate treatment. Further, some patients may tolerate one treatment regimen better than the other. Pregnant patients should not be trea",
+    "source": "OpenFDA-metronidazole",
+    "type": "drug",
+    "drug_name": "metronidazole",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: doxycycline\nIndications: INDICATIONS AND USAGE To reduce the development of drug-resistant bacteria and maintain effectiveness of doxycycline and other antibacterial drugs, doxycycline should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy. Treatment: Doxycycline is indicated for the treatment of the following infections: Rocky Mountain spotted fever, typhus fever and the typhus group, Q fever, rickettsialpox, and tick fevers caused by Rickettsiae. Respiratory tract infections caused by Mycoplasma pneumoniae . Lymphogranuloma venereum caused by Chlamydia trachomatis . Psittacosis (ornithosis) caused by Chlamydophila psittaci . Trachoma caused by Chlamydia trachomatis , although the i",
+    "source": "OpenFDA-doxycycline",
+    "type": "drug",
+    "drug_name": "doxycycline",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: doxycycline\nContraindications: CONTRAINDICATIONS This drug is contraindicated in persons who have shown hypersensitivity to any of the tetracyclines.",
+    "source": "OpenFDA-doxycycline",
+    "type": "drug",
+    "drug_name": "doxycycline",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: doxycycline\nWarnings: WARNINGS The use of drugs of the tetracycline class during tooth development (last half of pregnancy, infancy and childhood to the age of 8 years) may cause permanent discoloration of the teeth (yellow-gray-brown). This adverse reaction is more common during long-term use of the drugs, but it has been observed following repeated short-term courses. Enamel hypoplasia has also been reported. Use doxycycline in pediatric patients 8 years of age or less only when the potential benefits are expected to outweigh the risks in severe or life-threatening conditions (e.g., anthrax, Rocky Mountain spotted fever), particularly when there are no alternative therapies. Clostridium difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including doxycycline, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of C. difficile . C. difficile produces tox",
+    "source": "OpenFDA-doxycycline",
+    "type": "drug",
+    "drug_name": "doxycycline",
+    "field": "warnings"
+  },
+  {
+    "text": "Drug: doxycycline\nAdverse Reactions: ADVERSE REACTIONS Due to oral doxycycline's virtually complete absorption, side effects of the lower bowel, particularly diarrhea, have been infrequent. The following adverse reactions have been observed in patients receiving tetracyclines: Gastrointestinal: anorexia, nausea, vomiting, diarrhea, glossitis, dysphagia, enterocolitis, inflammatory lesions (with monilial overgrowth) in the anogenital region, and pancreatitis. Hepatotoxicity has been reported rarely. These reactions have been caused by both the oral and parenteral administration of tetracyclines. Superficial discoloration of the adult permanent dentition, reversible upon drug discontinuation and professional dental cleaning has been reported. Permanent tooth discoloration and enamel hypoplasia may occur with drugs of the tetracycline class when used during tooth development. (See WARNINGS .) Rare instances of esophagitis and esophageal ulcerations have been reported in patients receiving capsule and tablet forms of the drug",
+    "source": "OpenFDA-doxycycline",
+    "type": "drug",
+    "drug_name": "doxycycline",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: doxycycline\nDosage: DOSAGE AND ADMINISTRATION The usual dosage and frequency of administration of doxycycline differs from that of the other tetracyclines. Exceeding the recommended dosage may result in an increased incidence of side effects. Adults: The usual dose of oral doxycycline is 200 mg on the first day of treatment (administered 100 mg every 12 hours) followed by a maintenance dose of 100 mg/day. In the management of more severe infections (particularly chronic infections of the urinary tract), 100 mg every 12 hours is recommended. Pediatric Patients: For all pediatric patients weighing less than 45 kg with severe or life-threatening infections (e.g., anthrax, Rocky Mountain spotted fever), the recommended dosage is 2.2 mg/kg of body weight administered every 12 hours. Children weighing 45 kg or more should receive the adult dose. (See WARNINGS and PRECAUTIONS .) For pediatric patients with less severe disease (greater than 8 years of age and weighing less than 45 kg), the recommended dosage sche",
+    "source": "OpenFDA-doxycycline",
+    "type": "drug",
+    "drug_name": "doxycycline",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: cetirizine\nIndications: Uses temporarily relieves these symptoms due to hay fever or other upper respiratory allergies: runny nose sneezing itchy, watery eyes itching of the nose or throat",
+    "source": "OpenFDA-cetirizine",
+    "type": "drug",
+    "drug_name": "cetirizine",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: cetirizine\nWarnings: Warnings Do not use if you have ever had an allergic reaction to this product or any of its ingredients or to an antihistamine containing hydroxyzine. Ask a doctor before use if you have liver or kidney disease. Your doctor should determine if you need a different dose. Ask a doctor or pharmacist before use if you are taking tranquilizers or sedatives. When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness be careful when driving a motor vehicle or operating machinery Stop use and ask a doctor if an allergic reaction to this product occurs. Seek medical help right away. If pregnant or breast-feeding if breast-feeding: not recommended if pregnant: ask a health professional before use. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222)",
+    "source": "OpenFDA-cetirizine",
+    "type": "drug",
+    "drug_name": "cetirizine",
+    "field": "warnings"
+  },
+  {
+    "text": "Drug: cetirizine\nDosage: Directions may be taken with or without water chew or crush tablets completely before swallowing children 2 to under 6 years of age Chew and swallow 1 tablet (2.5 mg) once daily; If needed, dose can be increased to a maximum of 2 tablets (5 mg) once daily or 1 tablet (2.5 mg) every 12 hours. Do not give more than 2 tablets (5 mg) in 24 hours. adults and children 6 years and over Chew and swallow 2 tablets (5 mg) or 4 tablets (10 mg) once daily depending upon severity of symptoms; do not take more than 4 tablets (10 mg) in 24 hours. adults 65 years and over Chew and swallow 2 tablets (5 mg) once daily; do not take more than 2 tablets (5 mg) in 24 hours. children under 2 years of age ask a doctor consumers with liver or kidney disease ask a doctor",
+    "source": "OpenFDA-cetirizine",
+    "type": "drug",
+    "drug_name": "cetirizine",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: montelukast\nIndications: 1 INDICATIONS AND USAGE Montelukast sodium chewable tablets are a leukotriene receptor antagonist indicated for: \u2022 Prophylaxis and chronic treatment of asthma in patients 2 years of age and older ( 1.1 ). \u2022 Acute prevention of exercise-induced bronchoconstriction (EIB) in patients 6 years of age and older ( 1.2 ). \u2022 Relief of symptoms of allergic rhinitis (AR): seasonal allergic rhinitis (SAR) in patients 2 years of age and older, and perennial allergic rhinitis (PAR) in patients 2 years of age and older. Reserve use for patients who have an inadequate response or intolerance to alternative therapies ( 1.3 ). 1.1 Asthma Montelukast sodium chewable tablets are indicated for the prophylaxis and chronic treatment of asthma in adults and pediatric patients 2 years of age and older. 1.2 Exercise-Induced Bronchoconstriction (EIB) Montelukast sodium chewable tablets are indicated for prevention of exercise-induced bronchoconstriction (EIB) in patients 6 years of age and older. 1.3 Allergic Rh",
+    "source": "OpenFDA-montelukast",
+    "type": "drug",
+    "drug_name": "montelukast",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: montelukast\nContraindications: 4 CONTRAINDICATIONS \u2022 Hypersensitivity to any component of this product. \u2022 Hypersensitivity to any component of this product ( 4 ).",
+    "source": "OpenFDA-montelukast",
+    "type": "drug",
+    "drug_name": "montelukast",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: montelukast\nAdverse Reactions: 6 ADVERSE REACTIONS Most common adverse reactions (incidence \u22655% and greater than placebo listed in descending order of frequency): upper respiratory infection, fever, headache, pharyngitis, cough, abdominal pain, diarrhea, otitis media, influenza, rhinorrhea, sinusitis, otitis ( 6.1 ). To report SUSPECTED ADVERSE REACTIONS, contact Hetero Labs Limited at 1-866-495-1995 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch . See 17 for PATIENT COUNSELING INFORMATION and Medication Guide. Revised: 05/2020 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice. In the following description of clinical trials experience, adverse reactions are listed regardless of causality assessment. The most common adverse reactions (incidence \u22655% and greater than ",
+    "source": "OpenFDA-montelukast",
+    "type": "drug",
+    "drug_name": "montelukast",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: montelukast\nDosage: 2 DOSAGE AND ADMINISTRATION Administration (by indications): \u2022 Asthma ( 2.1 ): Once daily in the evening for patients 2 years and older. \u2022 Acute prevention of EIB ( 2.2 ): One tablet at least 2 hours before exercise for patients 6 years of age and older. \u2022 Seasonal allergic rhinitis ( 2.3 ): Once daily for patients 2 years and older. \u2022 Perennial allergic rhinitis ( 2.3 ): Once daily for patients 2 years and older. Dosage (by age) ( 2 ): \u2022 15 years and older: one 10-mg tablet. \u2022 6 to 14 years: one 5-mg chewable tablet. \u2022 2 to 5 years: one 4-mg chewable tablet. Patients with both asthma and allergic rhinitis should take only one dose daily in the evening ( 2.4 ). 2.1 Asthma Montelukast sodium should be taken once daily in the evening. The following doses are recommended: For adults and adolescents 15 years of age and older: one 10-mg tablet. For pediatric patients 6 to 14 years of age: one 5-mg chewable tablet. For pediatric patients 2 to 5 years of age: one 4-mg chewable tablet. Safety ",
+    "source": "OpenFDA-montelukast",
+    "type": "drug",
+    "drug_name": "montelukast",
+    "field": "dosage"
+  },
+  {
+    "text": "Drug: prednisolone\nIndications: INDICATIONS AND USAGE PRED FORTE \u00ae is indicated for the treatment of steroid-responsive inflammation of the palpebral and bulbar conjunctiva, cornea, and anterior segment of the globe.",
+    "source": "OpenFDA-prednisolone",
+    "type": "drug",
+    "drug_name": "prednisolone",
+    "field": "indications"
+  },
+  {
+    "text": "Drug: prednisolone\nContraindications: CONTRAINDICATIONS PRED FORTE \u00ae suspension is contraindicated in acute untreated purulent ocular infections, in most viral diseases of the cornea and conjunctiva including epithelial herpes simplex keratitis (dendritic keratitis), vaccinia, and varicella, and also in mycobacterial infection of the eye and fungal diseases of ocular structures. PRED FORTE \u00ae suspension is also contraindicated in individuals with known or suspected hypersensitivity to any of the ingredients of this preparation and to other corticosteroids.",
+    "source": "OpenFDA-prednisolone",
+    "type": "drug",
+    "drug_name": "prednisolone",
+    "field": "contraindications"
+  },
+  {
+    "text": "Drug: prednisolone\nWarnings: WARNINGS Prolonged use of corticosteroids may result in posterior subcapsular cataract formation and may increase intraocular pressure in susceptible individuals, resulting in glaucoma with damage to the optic nerve, defects in visual acuity and fields of vision. Prolonged use may also suppress the host immune response and thus increase the hazard of secondary ocular infections. If this product is used for 10 days or longer, intraocular pressure should be routinely monitored even though it may be difficult in children and uncooperative patients. Steroids should be used with caution in the presence of glaucoma. Intraocular pressure should be checked frequently. Various ocular diseases and long-term use of topical corticosteroids have been known to cause corneal and scleral thinning. Use of topical corticosteroids in the presence of thin corneal or scleral tissue may lead to perforation. Acute purulent infections of the eye may be masked or activity enhanced by the presence of corticoste",
+    "source": "OpenFDA-prednisolone",
+    "type": "drug",
+    "drug_name": "prednisolone",
+    "field": "warnings"
+  },
+  {
+    "text": "Drug: prednisolone\nAdverse Reactions: ADVERSE REACTIONS The following adverse reactions have been identified during use of PRED FORTE \u00ae . Because reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Adverse reactions include elevation of intraocular pressure (IOP) with possible development of glaucoma and infrequent optic nerve damage, posterior subcapsular cataract formation, and delayed wound healing. The development of secondary ocular infection (bacterial, fungal, and viral) has occurred. Fungal and viral infections of the cornea are particularly prone to develop coincidentally with long-term applications of steroids. The possibility of fungal invasion should be considered in any persistent corneal ulceration where steroid treatment has been used (see PRECAUTIONS ). Other adverse reactions reported with the use of prednisolone acetate ophthalmic suspension include: allergic reactions; d",
+    "source": "OpenFDA-prednisolone",
+    "type": "drug",
+    "drug_name": "prednisolone",
+    "field": "adverse_reactions"
+  },
+  {
+    "text": "Drug: prednisolone\nDosage: DOSAGE AND ADMINISTRATION Shake well before using. Instill one to two drops into the conjunctival sac two to four times daily. During the initial 24 to 48 hours, the dosing frequency may be increased if necessary. Care should be taken not to discontinue therapy prematurely. If signs and symptoms fail to improve after 2 days, the patient should be re-evaluated (see PRECAUTIONS ).",
+    "source": "OpenFDA-prednisolone",
+    "type": "drug",
+    "drug_name": "prednisolone",
+    "field": "dosage"
+  }
+]
