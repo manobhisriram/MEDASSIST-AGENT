@@ -52,6 +52,7 @@ Faithfulness of 0.92 means 92% of claims in generated answers are directly trace
 ---
 
 ## System Architecture
+
 Patient Input (natural language symptoms)
 │
 ▼
