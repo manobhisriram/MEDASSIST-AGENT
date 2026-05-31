@@ -53,6 +53,7 @@ Faithfulness of 0.92 means 92% of claims in generated answers are directly trace
 
 ## System Architecture
 
+```text
 Patient Input (natural language symptoms)
 │
 ▼
@@ -73,41 +74,39 @@ Patient Input (natural language symptoms)
 │  red_flag_indicators, reasoning         │
 └─────────────────────────────────────────┘
 │
-├─── LOW / MEDIUM ───────────────────────────────────┐
-│                                                    │
-├─── HIGH / EMERGENCY ───────┐                       │
-│                            │                       │
-▼                            ▼                       │
+├── LOW / MEDIUM ──────────────────────────────┐
+│                                              │
+├── HIGH / EMERGENCY ───────┐                  │
+│                           │                  │
+▼                           ▼                  │
 
-┌──────────────────┐    ┌────────────────────────┐
-│ ClinicalRetriever│    │    DrugCheckerNode     │
-│ LanceDB hybrid   │    │    OpenFDA API         │
-│ Vector + FTS     │    │    Live drug lookup    │
-│ RRF fusion       │    │    contraindications   │
-└──────────────────┘    └────────────────────────┘
-│                            │
-└───────────────┬────────────┘
+┌────────────────────┐   ┌────────────────────┐
+│ ClinicalRetriever  │   │ DrugCheckerNode    │
+│ LanceDB Hybrid     │   │ OpenFDA API        │
+│ Vector + FTS       │   │ Live Drug Lookup   │
+│ RRF Fusion         │   │ Contraindications  │
+└────────────────────┘   └────────────────────┘
+│                           │
+└───────────────┬───────────┘
                 │
                 ▼
 
-┌─────────────────────────────────┐
-│       TriageDecisionNode         │
-│  Fine-tuned Phi-3 Mini           │
-│  Output: TriageDecision schema   │
-│  severity, next_steps, sources,  │
-│  red_flags, drug_warnings,       │
-│  clinical_reasoning, disclaimer  │
-└─────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│          TriageDecisionNode             │
+│         Fine-tuned Phi-3 Mini           │
+│ Output: TriageDecision Schema           │
+│ severity, next_steps, sources           │
+│ red_flags, drug_warnings                │
+│ clinical_reasoning, disclaimer          │
+└─────────────────────────────────────────┘
 │
-├────────────┬────────────┤
-│            │            │
-▼            ▼            ▼
+├──────────────┬──────────────┬──────────────┐
+│              │              │              │
+▼              ▼              ▼              ▼
 
-Langfuse      SQLite      FastAPI
-(full trace)  (run logs)  /triage
-                            │
-                            ▼
-                      Streamlit UI
+Langfuse      SQLite       FastAPI      Streamlit UI
+(full trace) (run logs)    /triage
+```
 
 Every node output is validated against a Pydantic schema before the pipeline proceeds. Invalid outputs trigger automatic retry with a corrective prompt (maximum 3 retries before graceful degradation). Conditional routing sends HIGH and EMERGENCY severity cases through both the clinical retriever and the drug checker in parallel. LOW and MEDIUM cases skip the drug checker, reducing average latency for non-critical queries.
 
