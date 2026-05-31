@@ -15,7 +15,7 @@ def call_ollama_raw(prompt: str, model: str = "medassist", system_prompt: str = 
             "prompt": f"{system_prompt}\n\n{prompt}",
             "stream": False
         },
-        timeout=120
+        timeout=180
     )
     return response.json()["response"]
 
