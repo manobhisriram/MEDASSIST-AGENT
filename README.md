@@ -78,18 +78,18 @@ Patient Input (natural language symptoms)
 ├─── HIGH / EMERGENCY ───────┐                       │
 │                            │                       │
 ▼                            ▼                       │
-┌──────────────────┐    ┌────────────────────────┐          │
-│ ClinicalRetriever│    │    DrugCheckerNode      │          │
-│ LanceDB hybrid   │    │    OpenFDA API          │          │
-│ Vector + FTS     │    │    Live drug lookup     │          │
-│ RRF fusion       │    │    contraindications    │          │
-└──────────────────┘    └────────────────────────┘          │
-│                            │                       │
-└────────────────────────────┘                       │
-│                                   │
-└───────────────────────────────────┘
-│
-▼
+
+┌──────────────────┐    ┌────────────────────────┐
+│ ClinicalRetriever│    │    DrugCheckerNode     │
+│ LanceDB hybrid   │    │    OpenFDA API         │
+│ Vector + FTS     │    │    Live drug lookup    │
+│ RRF fusion       │    │    contraindications   │
+└──────────────────┘    └────────────────────────┘
+│                            │
+└───────────────┬────────────┘
+                │
+                ▼
+
 ┌─────────────────────────────────┐
 │       TriageDecisionNode         │
 │  Fine-tuned Phi-3 Mini           │
@@ -99,15 +99,15 @@ Patient Input (natural language symptoms)
 │  clinical_reasoning, disclaimer  │
 └─────────────────────────────────┘
 │
-┌────────────┴────────────┐
-│                         │
-Langfuse                    SQLite
-(full trace               (run logs,
-per node)                token counts)
-│
-FastAPI /triage
-│
-Streamlit UI
+├────────────┬────────────┤
+│            │            │
+▼            ▼            ▼
+
+Langfuse      SQLite      FastAPI
+(full trace)  (run logs)  /triage
+                            │
+                            ▼
+                      Streamlit UI
 
 Every node output is validated against a Pydantic schema before the pipeline proceeds. Invalid outputs trigger automatic retry with a corrective prompt (maximum 3 retries before graceful degradation). Conditional routing sends HIGH and EMERGENCY severity cases through both the clinical retriever and the drug checker in parallel. LOW and MEDIUM cases skip the drug checker, reducing average latency for non-critical queries.
 
