@@ -200,6 +200,8 @@ All guideline documents are chunked using sentence-transformer embeddings with c
 ---
 
 ## Project Structure
+
+```text
 MEDASSIST-AGENT/
 ├── .github/
 │   └── workflows/
@@ -245,6 +247,7 @@ MEDASSIST-AGENT/
 │   └── prepare_data.py           # Fine-tuning data preparation
 ├── Modelfile                     # Ollama model configuration
 └── requirements.txt
+```
 
 ---
 
