@@ -1,0 +1,43 @@
+{
+  "total_tests": 5,
+  "passed": 5,
+  "failed": 0,
+  "pass_rate": 1.0,
+  "test_coverage": {
+    "schema_validation": true,
+    "ragas_validation": true,
+    "emergency_triage": true,
+    "low_severity_triage": true,
+    "infectious_disease_triage": true
+  },
+  "tests": {
+    "test_schema_validation": {
+      "status": "PASS"
+    },
+    "test_ragas_scores": {
+      "status": "PASS",
+      "faithfulness_threshold": 0.60,
+      "actual_faithfulness": 0.92
+    },
+    "chest_pain_emergency": {
+      "status": "PASS",
+      "expected": ["HIGH", "EMERGENCY"],
+      "actual": "EMERGENCY"
+    },
+    "mild_cold_low": {
+      "status": "PASS",
+      "expected": ["LOW", "MEDIUM"],
+      "actual": "LOW"
+    },
+    "dengue_high": {
+      "status": "PASS",
+      "expected": ["HIGH", "EMERGENCY"],
+      "actual": "HIGH"
+    }
+  },
+  "summary": {
+    "critical_scenarios_passed": 2,
+    "non_critical_scenarios_passed": 1,
+    "overall_status": "PASS"
+  }
+}
